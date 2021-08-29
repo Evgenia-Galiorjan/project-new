@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"name": "image",
+			"path": "..\\..\\Pictures\\category-filter-master\\image"
+		},
+		{
+			"name": "new",
+			"path": "."
+		}
+	],
+    "settings": {}
+}

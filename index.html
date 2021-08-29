@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="geo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ისწავლე</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LOGO</a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">მთავარი</a></li>
+                <li><a href="#about">ჩვენ შესახებ</a></li>
+                <li><a href="other.html">კურსები</a></li>
+                <li><a href="#teacher">მასწავლებლები</a></li>
+                <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+        </nav>
+
+        <div id="login" class="fas fa-user-circle"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form  -->
+
+    <div class="login-form">
+
+        <form action="">
+            <h3>შესვლა</h3>
+            <input type="email" placeholder="username" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>დაგავიწყდა პაროლი? <a href="#">პაროლის განახლება</a></p>
+            <p>არ ხარ რეგისტრირებული? <a href="#">რეგისტრაცია</a></p>
+            <input type="submit" class="btn" value="შესვლა">
+            <i class="fas fa-times"></i>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h1>ისწავლე ონლაინ</h1>
+        <p>თუ ხარ აბიტურიენტი და ეძებ ონლაინ კურსებს ეს პლატფორმა შენთვისაა</p>
+        <p>თუ ხარ მასწავლებელი და ეძებ დამატებით შემოსავალს ეს პლატფორმა შენთვისაა</p>
+
+        <a href="video/ისწავლე (1).mp4" target="_blank" class="title">
+            <button class="btn">გაიგე მეტი</button></a>
+
+        <div class="shape"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="images/ისწავლე.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>რატომ ჩვენ</h3>
+            <p>"ისწავლე"-პლატფორმა, რომელიც გაძლევს ისწავლო და მოემზადო ეროვნულებისთვის ონლაინ, შენთვის კომფორტული ადგილიდან.</p>
+            <p>პლატფორმა საშუალებას აძლევს მასწავლებელს ჩაწეროს და გამოაქვეყნოს კურსი.
+            </p>
+            <a href="other.html" target="_blank"><button class="btn">ჩვენი კურსები</button></a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- course section starts  -->
+
+    <section class="course" id="course">
+
+        <h1 class="heading">პოპულარული კურსები</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/zogadi.png" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="video/videoplayback.mp4" target="_blank" class="title">ზოგადი უნარების კურსი</a>
+                    <p>ზოგადი უნარების კურსი შედგება 12 გაკვეთილისგან. თითოეული გაკვეთილის ბოლოს, ჩასაბარებელი გექნებათ ტესტეიბი. კურსს თან ახლავს ჩემი კონსპექტი</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 80 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 12 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/history-doodles-lettering-white-background-137829155.jpg" alt="">
+                <h3 class="price">$60</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="title">ისტორიის მოკლე კურსი</a>
+                    <p>ისტორიის მოკლე კურსი შედგება 8 გაკვეთილისაგან, თითოეულის ხანგრძლოვობა შეადგენს 2 საათი და სრული კურსის დაუფლებაში დაგჭირდებათ 2 თვე</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 2 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 8 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Creativity-in-Mathematics.png" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="title">მატემატიკის კურსი</a>
+                    <p>ინტენსიური მათემატიკის კურსი, რომელიც შედგება 32 მოდულსგან დაგეხმარებათ სრულიად აითვისოთ მასალა და ჩააბაროთ ეროვნული გამოცდა მათემატიკაში.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 92 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 9 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 32 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Mathematics.jpg" alt="">
+                <h3 class="price">$90</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">მათემატიკის მოკლე კურსი</a>
+                    <p>მათემატიკის მოკლე კურსი დაგეხმარებათ მოკლე დროში მოემზადოთ ეროვნულებითვის,და მიიღოთ საბაზისო ცოდნა</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 12 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 6 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/biology-hand-drawn-doodles-lettering-education-science-vector-white-background-135246167.jpg" alt="">
+                <h3 class="price">$30</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">ბიოლოგიის კურსი</a>
+                    <p>აღნიშნული კურსი შედგება 42 გაკვეთილისგან, მისი განგრძლივობა შეადგენს 98 საათი. ბიოლოგიის აღნიშნული კურსი ინტენსიურია და მის დაუფლებაში დაგჭირდებათ 8 თვე</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 98 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 42 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/english.jpg" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">ინგლისური ენის კურსი</a>
+                    <p>აღნიშნული კურსი სრულიად მოიცავს ეროვნულ პროგმას. მისი განხრძლივობა არის 6 თვე და ის შედგება 12 გაკვეთილისგან. კურსის ხანგრძლივიბა შეადგენს 52 საათს</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 52 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 12 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/german.jpg" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">გერმანული ენის კურსი</a>
+                    <p>აღნიშნული კურსი სრულიად მოიცავს ეროვნულ პროგმას. მისი განხრძლივობა არის 6 თვე და ის შედგება 12 გაკვეთილისგან. კურსის ხანგრძლივიბა შეადგენს 52 საათს</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 52 საათი </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 თვე </h3>
+                        <h3> <i class="fas fa-book"></i> 12 გაკვეთილი </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="service">
+
+        <h1 class="heading">რას ვთავაზობთ?</h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="flip-up">
+                <img src="images/class.png" alt="">
+                <div class="info">
+                    <h2>კვალიფიცირებული მასწავლებელი</h2>
+                    <p>აირჩიე შენთვის სასურველი კურსი სასურველ მასწავლებელთან</p>
+                </div>
+            </div>
+
+            <div class="box" data-aos="flip-down">
+                <img src="images/24-hours.png" alt="">
+                <div class="info">
+                    <h2>24x7 სერვისი</h2>
+                    <p> გაიარე კურსი შენთვის მოსახერხებელი გრაფიკით</p>
+                </div>
+            </div>
+
+            <div class="box" data-aos="flip-up">
+                <img src="images/24-hours.png" alt="">
+                <div class="info">
+                    <h2>ისწავლე ნებისმიერი ადგილიდან</h2>
+                    <br>
+                    <p>იყიდე კურსი და ისწავლე შენთვის მოსახერხებელი ადგილიდნ</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- course section ends -->
+
+    <!-- teacher section starts  -->
+
+    <section class="teacher" id="teacher">
+
+        <h1 class="heading">მასწავლებლები</h1>
+
+        <p>ჩვენ ვაძლევთ საშუალებას თითოეულ მასწავლებელს მიიღოს ახალი გამოცდილება, და საკუთარი თავი გამოცადოს ახალ მიმართულებაშიში</p>
+
+        <a href=""><button class="btn">რეგისტრაცია</button></a>
+
+    </section>
+
+    <!-- teacher section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">დაგვიკავშირდი</h1>
+
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="სახელი" class="box">
+                <input type="email" placeholder="მეილი" class="box">
+                <input type="password" placeholder="პაროლი" class="box">
+                <input type="number" placeholder="ტელეფონის ნომერი" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="მესიჯი"></textarea>
+                <input type="submit" class="btn" value="გაგზავნა">
+            </form>
+
+            <div class="image">
+                <img src="" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>მენიუს ნავიგაცია</h3>
+                <a href="#">მთავარი</a>
+                <a href="#about">ჩვენს შესახებ</a>
+                <a href="other.html">კურსები</a>
+                <a href="#teacher">მასწავლებელი</a>
+                <a href="#contact">კონტაქტი</a>
+            </div>
+
+            <div class="box">
+                <h3>საკონტაქტო ინფორმაცია</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> ვაკე, ჭავჭავაძის გამზირი #32 </p>
+                <p> <i class="fas fa-envelope"></i> galiorjan1999@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> +995574092340 </p>
+            </div>
+
+        </div>
+
+        <h1 class="credit">Created By <a href="#">ისწავლე</a> All rights reserved. </h1>
+
+    </div>
+
+    <!-- footer section ends -->
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/course.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 500
+        });
+    </script>
+
+</body>
+
+</html>
